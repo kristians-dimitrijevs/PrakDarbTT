@@ -3,7 +3,6 @@
 @section('content')
 <div class="container">
     <form action="/profile/{{ $user->id }}" enctype="multipart/form-data" method="post">
-
         <!-- authenticates form from getting submitted to end-point -->
         @csrf
         @method('PATCH')
