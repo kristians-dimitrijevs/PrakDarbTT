@@ -15,18 +15,18 @@
                 </div>
 
                 @can('update', $user->profile)
-                    <a href="/post/create">Add Post</a>
+                    <a href="/post/create">{{__('Add Post')}}</a>
                 @endcan
             </div>
 
             @can('update', $user->profile)
-                <a href="/profile/{{ $user->id }}/edit">Edit Profile</a>
+                <a href="/profile/{{ $user->id }}/edit">{{__('Edit Profile')}}</a>
             @endcan
 
             <div class="d-flex">
-                <div class="pr-4"><strong>{{ $postCount }}</strong> posts</div>
-                <div class="pr-4"><strong>{{ $followersCount }}</strong> followers</div>
-                <div class="pr-4"><strong>{{ $followingCount }}</strong> following</div>
+                <div class="pr-4"><strong>{{ $postCount }}</strong> {{__('posts')}}</div>
+                <div class="pr-4"><strong>{{ $followersCount }}</strong> {{__('followers')}}</div>
+                <div class="pr-4"><strong>{{ $followingCount }}</strong> {{__('following')}}</div>
             </div>
             <div class="pt-4 font-weight-bold">{{ $user->profile->title }}</div>
             <div>{{$user->profile->description}}</div>

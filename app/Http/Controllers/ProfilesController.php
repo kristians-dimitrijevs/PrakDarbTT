@@ -69,6 +69,6 @@ class ProfilesController extends Controller
             $imageArray ?? []
         ));
 
-       return redirect("/profile/{$user->id}");
+       return redirect(app()->getLocale() , "/profile/{$user->id}");
     }
 }
