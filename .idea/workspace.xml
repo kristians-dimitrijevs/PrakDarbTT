@@ -19,18 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b99f48-7fa9-4444-87ed-09746309cff1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ProfilesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/SetLanguage.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/SetLanguage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/lv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/posts/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/posts/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/profiles/index.blade.php" afterDir="false" />
-    </list>
+    <list default="true" id="19b99f48-7fa9-4444-87ed-09746309cff1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +28,6 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package.json" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -220,10 +202,7 @@
       <workItem from="1592823608962" duration="13429000" />
       <workItem from="1592851620894" duration="8879000" />
       <workItem from="1592907819024" duration="6261000" />
-      <workItem from="1593011902747" duration="3286000" />
-      <workItem from="1593015809209" duration="529000" />
-      <workItem from="1593020770857" duration="8461000" />
-      <workItem from="1593070045223" duration="4659000" />
+      <workItem from="1593078052415" duration="1031000" />
     </task>
     <servers />
   </component>
@@ -275,10 +254,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="158" y="198" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1592909173004" />
-    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup" timestamp="1593015970889">
+    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup" timestamp="1592913764749">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1593015970889" />
+    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1592913764749" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592773316394" />
   </component>
 </project>

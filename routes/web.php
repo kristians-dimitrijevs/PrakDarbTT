@@ -13,24 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::redirect('/', '/en');
-Route::group(['prefix' => '{language}'], function(){
 
-    Auth::routes();
+Auth::routes();
 
-    Route::get('/email', function () {
-        return new \App\Mail\NewUserWelcomeMail();
-    });
-
-    Route::post('follow/{user}' , 'FollowsController@store' );
-
-    Route::get('/', 'PostsController@index');
-    Route::get('/post/create', 'PostsController@create');
-    Route::post('/post', 'PostsController@store');
-    Route::get('/post/{post}', 'PostsController@show');
-
-    Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
-    Route::get('/profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
-    Route::patch('/profile/{user}', 'ProfilesController@update')->name('profile.update');
+Route::get('/email', function () {
+    return new \App\Mail\NewUserWelcomeMail();
 });
+
+Route::post('follow/{user}' , 'FollowsController@store' );
+
+Route::get('/', 'PostsController@index');
+Route::get('/post/create', 'PostsController@create');
+Route::post('/post', 'PostsController@store');
+Route::get('/post/{post}', 'PostsController@show');
+
+Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
+Route::get('/profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
+Route::patch('/profile/{user}', 'ProfilesController@update')->name('profile.update');
 
