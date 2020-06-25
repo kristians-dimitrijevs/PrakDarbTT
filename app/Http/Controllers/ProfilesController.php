@@ -9,8 +9,9 @@ use Intervention\Image\Facades\Image;
 
 class ProfilesController extends Controller
 {
-    public function index(User $user)
+    public function index(Request $request, $user)
     {
+        $user = User::find($user);
         $follows = (auth()->user()) ? auth()->user()->following->contains($user->id) : false;
 
         // Caching Post count
@@ -36,6 +37,8 @@ class ProfilesController extends Controller
             });
 
         return view('profiles.index', compact('user' , 'follows',  'postCount', 'followersCount', 'followingCount'));
+
+        //return view('profiles.index', compact('user' , 'follows'));
     }
 
     public function edit(User $user)

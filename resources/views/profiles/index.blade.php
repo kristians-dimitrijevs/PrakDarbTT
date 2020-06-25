@@ -20,7 +20,7 @@
             </div>
 
             @can('update', $user->profile)
-                <a href="/profile/{{ $user->id }}/edit">{{__('Edit Profile')}}</a>
+                <a href="app()->getLocale(),/profile/{{ $user->id }}/edit">{{__('Edit Profile')}}</a>
             @endcan
 
             <div class="d-flex">
@@ -37,7 +37,7 @@
     <div class="row pt-6">
         @foreach($user->posts as $post)
             <div class="col-4 pb-4">
-                <a href="/post/{{ $post->id }}">
+                <a href= "app()->getLocale(), /post/{{ $post->id }}">
                     <img src="/storage/{{ $post->image }}" class="w-100">
                 </a>
             </div>

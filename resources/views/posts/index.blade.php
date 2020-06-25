@@ -16,7 +16,7 @@
                 <div>
                     <p>
                     <span class="font-weight-bold">
-                        <a href="/profile/{{ $post->user->id }}">
+                        <a href="app()->getLocale(),/profile/{{ $post->user->id }}">
                             <span class="text-dark">{{ $post->user->username }}</span>
                         </a>
                     </span> {{$post->caption}}
