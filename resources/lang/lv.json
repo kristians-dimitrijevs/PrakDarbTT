@@ -1,0 +1,42 @@
+{
+    "Name": "Vārds",
+    "E-Mail Address": "E-pasts",
+    "Username": "Lietotājvārds",
+    "Password": "Parole",
+    "Confirm Passowrd": "Apstiprināt paroli",
+    "Register": "Reģistrēties",
+
+    "Remember Me": "Atcerēties mani",
+    "Login": "Pieslēgties",
+    "Forgot Your Password?": "Aizmirsi paroli?",
+    "Send Password Reset Link": "Atjaunot paroli",
+
+    "Follow": "Sekot",
+    "Unfollow": "Atsekot",
+    "Edit Profile": "Rediģēt profilu",
+    "Add Post": "Pievienot ierakstu",
+    "posts": "ieraksti",
+    "followers": "sekotāji",
+    "following": "seko",
+
+    "Add New Post": "Pievienot jaunu ierakstu",
+    "Caption of Post": "Ieraksta virsrakts",
+    "Post Image": "Ieraksta bilde",
+
+    "Title": "Virsraksts",
+    "Description": "Apraksts",
+    "Url": "Url",
+    "Profile Image": "Profila bilde",
+    "Save Profile": "Saglabāt izmaiņas",
+
+    "These credentials do not match our records.": "Ievadītie dati neatbilst lietotājam",
+    "Too many login attempts. Please try again in": "Pārāk daudz pieteikšanās mēģinājumu. Lūdzu mēģiniet vēlreiz pēc",
+
+    "Previous": "Iepriekšējā",
+    "Next": "Nākamā",
+    "Your password has been reset!": "Parole tika atjaunota!",
+    "We have emailed your password reset link!": "Paroles atjaunošanas saite tika nosūtīta!",
+    "Please wait before retrying.":  "Lūdzu uzgaidiet pirms mēģiniet atkārtoti.",
+    "This password reset token is invalid.": "Ievadītā paroles atjaunošana nav derīga.",
+    "We can't find a user with that email address.": "Lietotājs ar tādu e-pasta adresi nepastāv."
+}

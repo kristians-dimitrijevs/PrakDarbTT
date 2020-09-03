@@ -36,7 +36,10 @@ class ProfilesController extends Controller
             });
 
         return view('profiles.index', compact('user' , 'follows',  'postCount', 'followersCount', 'followingCount'));
+
     }
+
+
 
     public function edit(User $user)
     {
@@ -69,6 +72,5 @@ class ProfilesController extends Controller
             $imageArray ?? []
         ));
 
-       return redirect("/profile/{$user->id}");
     }
 }

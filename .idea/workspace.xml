@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b99f48-7fa9-4444-87ed-09746309cff1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/database/database.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.sqlite" afterDir="false" />
-    </list>
+    <list default="true" id="19b99f48-7fa9-4444-87ed-09746309cff1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +28,13 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -140,6 +145,9 @@
       <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
       <path value="$PROJECT_DIR$/vendor/phpseclib/bcmath_compat" />
       <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
+      <path value="$PROJECT_DIR$/vendor/league/mime-type-detection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
     </include_path>
   </component>
   <component name="ProjectId" id="1dacMfnXW8AxQRWRskoTDrIc1pw" />
@@ -153,7 +161,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/views/posts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../wamp64/www/project/PrakDarbTT-old versioja" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -164,11 +172,11 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\project\PrakDarbTT\resources\views\profiles" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\project\PrakDarbTT\resources\views\posts" />
+      <recent name="C:\wamp64\www\project\PrakDarbTT\resources\views\profiles" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\project\PrakDarbTT\resources\views\profiles" />
     </key>
   </component>
@@ -178,6 +186,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -204,12 +213,16 @@
       <workItem from="1592823608962" duration="13429000" />
       <workItem from="1592851620894" duration="8879000" />
       <workItem from="1592907819024" duration="6261000" />
-      <workItem from="1593078052415" duration="1031000" />
+      <workItem from="1593011902747" duration="3286000" />
+      <workItem from="1593015809209" duration="529000" />
+      <workItem from="1593020770857" duration="4636000" />
+      <workItem from="1599034807120" duration="7657000" />
+      <workItem from="1599078263973" duration="8065000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -232,10 +245,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="570" y="260" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1592833997836" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1592692026986">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1599085161211">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1592692026986" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1599085161211" />
     <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1592748625541">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
@@ -256,10 +269,10 @@
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="158" y="198" key="SettingsEditor/0.0.1680.1010@0.0.1680.1010" timestamp="1592909173004" />
-    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup" timestamp="1592913764749">
+    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup" timestamp="1593015970889">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1592913764749" />
+    <state x="545" y="232" width="672" height="659" key="search.everywhere.popup/0.0.1680.1010@0.0.1680.1010" timestamp="1593015970889" />
     <state x="623" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1592773316394" />
   </component>
 </project>
